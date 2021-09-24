@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>زیکو | مرجع آموزشی برنامه نویسی</title>
+<title>زیکو |پنل کاربری</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-rtl.css">
@@ -14,13 +14,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- start menu and header -->
   <div class="container">
 <div class="row">
-<div class="col-lg-3 d-none d-lg-block">
+<div class="col-lg-2 d-none d-lg-block">
   <img src="img/logo.png" alt="zicco-logo"  class="img-fluid my-3">
 </div>
-<div class="col-lg-6 d-n  one d-lg-flex align-items-center">
+<div class="col-lg-6 d-none d-lg-flex align-items-center">
 <div class="input-group custom-input-group">
   <input type="search" name="" id="" class="rounded-pill form-control" placeholder="عبارت مورد نظر خود را جست و جو کنید ">
   <div class="input-group-append">
@@ -28,12 +27,13 @@
   </div>
 </div>
 </div>
-<div class="col-lg-3 d-none d-lg-flex align-items-center custom-header">
+<div class="col-lg-4 d-none d-lg-flex align-items-center custom-header  justify-content-center">
 
 <a href="login.html" class=" border-left pl-3 ml-3 "><i class="fa fa-sign-in align-middle pl-1" aria-hidden="true"></i>ورود </a></li>
 
 <a href="sign-up.html" class=" border-left pl-3 ml-3 "><i class="fa fa-user align-middle pl-1" aria-hidden="true"></i>ثبت نام </a></li>
 <a href="#" class=" border-left pl-3 ml-3   " ><i class="fa fa-shopping-cart align-middle pl-1 text-center align-middle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="سبد خرید"></i></a></li>
+<a href="panel.html" class=" border-left pl-3 ml-3   " ><i class="fa fa-align-center align-middle pl-1 text-center align-middle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="پنل کاربری"></i></a></li>
 
 </div>
 <!-- start mobile menu -->
@@ -109,7 +109,7 @@
   <li class="nav-item pl-3 custom-nav-item"><a href="#" class="nav-link"> کانفیگ سرور های لینوکسی</a></li>
   <li class="nav-item pl-3 custom-nav-item"><a href="#" class="nav-link"> مهندسی</a></li>
   <li class="nav-item pl-3 custom-nav-item"><a href="#" class="nav-link">تحلیل بورسی</a></li>
-  <li class="nav-item pl-3 custom-nav-item"><a href="#" class="nav-link"> تماس با ما </a></li>
+  <li class="nav-item pl-3 custom-nav-item"><a href="contactus.html" class="nav-link"> تماس با ما </a></li>
 
 </ul>
 
@@ -132,7 +132,7 @@
                 <a href="#Checkout" class=" list-group-item list-group-item-action  " data-toggle="tab"> تسویه حساب</a>
                 <a href="#inventory" class=" list-group-item list-group-item-action  " data-toggle="tab"> افزایش موجودی</a>
                 <a href="#change" class=" list-group-item list-group-item-action  " data-toggle="tab"> تغییر مشخصات من</a>
-                <a href="#exit" class=" list-group-item list-group-item-action  " data-toggle="tab">    خروج</a>
+                <a href="index.html" class=" list-group-item list-group-item-action  " >    خروج</a>
                 
         </div>
     </div>
@@ -144,12 +144,291 @@
 <div class="card-header ">
     <h4>مرور وضعیت</h4>
 </div>
-
-
+<div class="card-body">
+  <div class="row">
+    <div class="col-12 col-md-6">
+       <div class="card mb-2">
+         <div class="card-body d-flex justify-content-between align-items-center">
+           <img src="img/university-campus.png" class="img-fluid d-inline-block  p-2 rounded" alt="uni" style="background-color: #f58221;">
+           <div class="d-inline-block text-center">
+           <p  mb-0>دوره 12 </p>
+           <small   > در سایت وجود دارد</small>
+          </div>
+         </div>
+       </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="card mb-2">
+        <div class="card-body d-flex justify-content-between align-items-center">
+          <img src="img/a.png" class="img-fluid d-inline-block  p-2 rounded" alt="uni" style="background-color: #f58221;">
+          <div class="d-inline-block text-center">
+          <p mb-0=""> 3 دوره
+          </p>
+          <small> ثبت نام کرده اید
+          </small>
+         </div>
+        </div>
+      </div>
+   </div>
+   <div class="col-12 col-md-6">
+    <div class="card mb-2">
+      <div class="card-body d-flex justify-content-between align-items-center">
+        <img src="img/shopping-cart.png" class="img-fluid d-inline-block  p-2 rounded" alt="uni" style="background-color: #f58221;">
+        <div class="d-inline-block text-center">
+        <p mb-0=""> 0 دوره      </p>
+        <small>     در انتظار پرداخت  
+        </small>
+       </div>
+      </div>
+    </div>
+ </div>
+ <div class="col-12 col-md-6">
+  <div class="card mb-2">
+    <div class="card-body d-flex justify-content-between align-items-center">
+      <img src="img/wallet-filled-money-tool.png" class="img-fluid d-inline-block  p-2 rounded" alt="uni" style="background-color: #f58221;">
+      <div class="d-inline-block text-center">
+      <p mb-0=""> 0 تومان
+      </p>
+      <small>موجودی قابل تسویه شما
+      </small>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="col-12 ">
+  <div class="card mt-3">
+    <div class="card-body bg-light">
+<p class="mb-2"><i class=" fa fa-bell align-middle"></i>  جدیدترین اعلان ها </p>
+<small>در تاریخ 1398/01/25</small>
+<div class="input-group mt-3">
+  <input type="text" class="form-control bg-light " placeholder="کد تخفیف 30 درصدی">
+  <div class="input-group-append "> <button class="btn   text-white " style="background-color: #4d0080    !important;border: none; "> منقضی شد</button></div>
 </div>
     </div>
+  </div>
 </div>
+  </div>
+</div>
+ 
+</div>
+    </div>
+    <div class="tab-pane fade show text-center" id="signed">
+<div class="card my-5 pb-2 text-center  ">
+  <div class="card-header">
+    <h4>دوره هایی که ثبت نام کرده اید</h4>
+  </div>
+  <div class="card-body">
+    <div class="card mb-3">
+      <div class="card-body  d-lg-flex">
+        <img src="img/html.jpg" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+        <div class="d-inline-block pr-3 text-justify">
+          <a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;"> سیر تا پیاز Html &amp; Html5 </a>
+          <small>
+            بخش اول متخصص طراحی سایت :
+زبان نشانه گذاری HTML به عنوان اولین پایه برای هر دوره آموزش طراحی سایت در نظر گرفته می‌شود. این زبان چیست و چه کاربردی دارد؟ HTML مخفف عبارت Hypertext Markup Language است.
+         </small>
+         <div class="row">
+          <button class="btn btn-primary rounded-pill mr-auto ml-3 mt-2" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body  d-lg-flex">
+        <img src="img/CSS.jpg" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+        <div class="d-inline-block pr-3 text-justify">
+          <a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;">    اموزش پروژه محور Css و Css3  </a>
+          <small>
+            بخش دوم متخصص طراحی سایت : CSS یکی از زبان های پرکاربرد در طراحی صفحات وب می باشد که در حقیقت وظیفه استایل دهی به صفحات را دارد. CSS کوتاه شده عبارت Cascading Style Sheets بوده و در کنار HTML برای طراحی صفحات وب لازم است.
 
+         </small>
+         <div class="row">
+          <button class="btn btn-primary rounded-pill mr-auto ml-3 mt-2" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body  d-lg-flex">
+        <img src="img/bootstrap-4.png" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+        <div class="d-inline-block pr-3 text-justify">
+          <a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;"> آموزش Bootstrap 4 </a>
+          <small>
+            بخش اول متخصص طراحی سایت : بوت استرپ (bootstrap) یک فریم ورک است که در طراحی صفحات وب به صورت رسپانسیو به کار می ورد. بوت استرپ شامل دستورات HTML، CSS و توابع جاوااسکریپت برای تولید و نمایش فرم ها، دکمه ها و المان های مورد نیاز طراحی وب می باشد.
+
+         </small>
+         <div class="row">
+          <button class="btn btn-primary rounded-pill mr-auto ml-3 mt-2" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body  d-lg-flex">
+        <img src="img/js.png" class="img-fluid float-lg-right mb-2" alt="html" width="250px" height="200px">
+        <div class="d-inline-block pr-3 text-justify">
+          <a href="Category.html" class="mb-3 d-block text-center" style="color: #000;margin: 0px 100px;"> آموزش javascript – jquery – ajax </a>
+          <small>
+            بخش چهارم متخصص طراحی سایت : جاوا اسکریپت برای اولین بار توسط شرکت Netscape و با نام LiveScript به عنوان نرم افزاری مفید جهت استفاده در دنیای وب به بازار عرضه شد ولی بعدها با حمایت شرکت Sun Microsystems (پدید آورنده JAVA ) با نام جاوا اسکریپت شناخته شد.
+
+         </small>
+         <div class="row">
+          <button class="btn btn-primary rounded-pill mr-auto ml-3 mt-2" style="font-size: 13px !important;font-weight: 200;"> مشاهده آموزش </button>
+        </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="tab-pane fade show text-center" id="created">
+      <div class="card my-5 pb-2 text-center  ">
+        <div class="card-header">
+          <h4> دوره هایی که ایجاد کرده اید
+          </h4>
+        </div>
+        <div class="card-body">
+          <div class="card mb-3">
+            <div class="card-body  text-center ">
+            
+            <div class="alert alert-info my-5 py-5 px3 text-center align-middle align-content-center ">
+              <p class="my2"> شما هنوز هیچ دوره ای ایجاد نکرده اید  </p>
+              <p class="my2"> جهت کسب اطلاعات بیشتر در مورد نحوه همکاری با ما به بخش <a href="#">همکاری با ما </a> مراجعه بفرمایید .  </p>
+            </div>
+             
+            </div>
+          </div>
+        
+      </div>
+          </div>
+</div>
+<div class="tab-pane fade show text-center" id="checkout">
+  <div class="card my-5 pb-2 text-center  ">
+    <div class="card-header">
+      <h4>تسویه حساب
+
+      </h4>
+    </div>
+    <div class="card-body">
+      <div class="card mb-3">
+        <div class="card-body  text-center ">
+        
+        <div class="alert alert-info my-5 py-5 px3 text-center align-middle align-content-center ">
+          <p class="my2"> موجودی حساب شما در حال حاضر 0 تومان است
+          </p>
+          <p class="my2">جهت تسویه حساب موجودی شما باید حداقل 50.000 تومان باشد .
+          </p>
+        </div>
+         
+        </div>
+      </div>
+    
+  </div>
+      </div>
+</div>
+<div class="tab-pane fade show text-center" id="inventory">
+  <div class="card my-5 pb-2 text-center  ">
+    <div class="card-header">
+      <h4>افزایش موجودی
+
+      </h4>
+    </div>
+    <div class="card-body">
+      <div class="card mb-3">
+        <div class="card-body  ">
+        
+        <div class="alert alert-info my-5 py-5 px3  align-middle align-content-center text-right ">
+         <ul>
+           <li> موجودی فعلی شما 0 تومان است . با افزایش موجودی خود می توانید در پرداخت های بعدی از موجودی خود استفاده کنید
+          </li>
+          <li>حداقل مبلغ افزایش موجودی 10.000 تومان میباشد .
+          </li>
+         </ul>
+        </div>
+        <div class="card my-4">
+          <div class="card-header text-center">
+            <span> فرم افزایش موجودی </span>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="money"> مبلغ شارژ (تومان) </label>
+                <select class="custom-select" name="value-money" id="">
+                  <option selected=""> 10.000 </option>
+                  <option> 20.000 </option>
+                  <option> 50.000 </option>
+                  <option> 100.000 </option>
+                </select>
+              </div>
+              <button class="btn btn-primary d-block mx-auto" data-toggle="alert" data-target="#alert"> پرداخت </button>
+              <div class="alert alert-success alert-dismissible fade show text-center mt-3" id="alert">
+                <button class="close" type="submit" data-dismiss="alert"> <span> × </span> </button>
+                <span> مبلغ 50.000 تومان به حساب شما واریز شد </span>
+              </div>
+            </form>
+          </div>
+        </div>
+         
+        </div>
+      </div>
+    
+  </div>
+      </div>
+</div>
+<div class="tab-pane fade show text-center" id="change">
+  <div class="card my-5 pb-2 text-center  ">
+    <div class="card-header">
+      <h4>مشخصات کاربری
+
+      </h4>
+    </div>
+    <div class="card-body">
+      <div class="card mb-3">
+        <div class="card-body  ">
+        <div class="card my-3 ">
+          <div class="card-header bg-primary pb-0">
+            <p class=" text-white"  > مشخصات کاربری شما :
+            </p>
+          </div>
+<div class="card-body">
+  <form action="">
+    <div class="form-group text-right" >
+      <p> نام : </p>
+      <input type="text" class="form-control" value="دانیال">
+    </div>
+    <div class="form-group text-right" >
+      <p> نام خانوادگی : </p>
+      <input type="text" class="form-control" value=" فیروزی">
+    </div>
+    <div class="form-group text-right" >
+      <p>رمز عبور :
+      </p>
+      <input type="password" class="form-control" value="2313">
+    </div>
+    <div class="form-group text-right" >
+      <p> نام کاربری :      </p>
+      <input type="text" class="form-control" disabled value="danial_mc">
+    </div>
+    <div class="form-group text-right" >
+      <p> ایمیل :      </p>
+      <input type="email" class="form-control" disabled value="info.dsa1@yahoo.com">
+    </div>
+  </form>
+  <button class="btn btn-primary"> ثبت تغییرات</button>
+</div>
+        </div>
+        
+         
+        </div>
+      </div>
+    
+  </div>
+      </div>
+</div>
     </div>
 </div>
 </div>

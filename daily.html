@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-rtl.css">
+<link rel="stylesheet" href="style.css">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<link rel="shortcut icon" href="img/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  .color:checked~.color-label::before {
+    color: #fff;
+    border-color:  red;
+    background-color:  red;
+}
+</style>
+<body>
+    <div class="container">
+<table class="table ">
+    <thead>
+        <th class=" text-center align-content-center"> کارهای هفتگی</th>
+        
+    </thead>
+<tbody>
+        <tr>
+            <td> فیلم مدار منطقی</td>
+          
+            </td>
+            <td>
+            <button class="btn-primary btn " id="text" onclick="work()"> Done</button>    
+            </td>
+        </td>
+        </tr>
+        <tr>
+            <td> دانلود و برسیی جزوه احتمال </td>
+          
+        </tr>
+        <tr>
+            <td>  ++c </td>
+          
+        </tr>
+        <tr>
+            <td>   تهیه کتاب زبان </td>
+        </tr>
+        <tr>
+            <td>   انتخاب کلمه تخصصی زبان </td>
+        </tr>
+        <tr>
+            <td>     حل تمرین بیشتر جبر خطی   </td>
+        </tr>
+        <tr>
+            <td>      اتمام سایت </td>
+        </tr>
+        <tr>
+            <td>  حذف  و اضافه</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+    <script>
+         function work() {
+
+            var test = document.getElementById("text");
+            if (test.className === "btn") {
+                test.className +=" btn-success";
+            } else {
+                test.className = "  btn btn-success "
+            }
+        }
+        
+    </script>
+</body>
+</html>
